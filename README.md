@@ -78,14 +78,23 @@ npm run dev
 
 ## Environment Variables
 
-Create `.env` files in the backend directory with:
+Create a local file at [backend/.env](backend/.env) by copying [backend/.env.example](backend/.env.example) and filling in your own values:
+
+```bash
+cd backend
+copy .env.example .env
+```
+
+Example variables include:
 ```
 MONGODB_URI=your_mongodb_connection_string
 CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+CLOUDINARY_SECRET_KEY=your_cloudinary_secret_key
 JWT_SECRET=your_jwt_secret
 ```
+
+Keep [backend/.env](backend/.env) local and never commit it to GitHub.
 
 ## API Routes
 
