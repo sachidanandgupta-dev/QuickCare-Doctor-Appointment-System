@@ -1,0 +1,12 @@
+<svg width="196" height="40" viewBox="0 0 196 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- mark: rounded badge with a pulse line resolving into a check -->
+  <rect x="0" y="0" width="40" height="40" rx="12" fill="#0F7A66"/>
+  <path d="M7 21.5H12.5L15.5 14L19.5 27L22.5 18.5L25 21.5H33"
+        stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="33" cy="21.5" r="2.6" fill="#FF8A5B"/>
+
+  <!-- wordmark -->
+  <text x="50" y="27" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="21" letter-spacing="-0.3">
+    <tspan fill="#0E2A24">Quick</tspan><tspan fill="#0F7A66">Care</tspan>
+  </text>
+</svg>
