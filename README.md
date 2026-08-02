@@ -1,4 +1,4 @@
-# QuickCare — Full Stack Doctor Appointment System  and
+# QuickCare — Full Stack Doctor Appointment System
 
 A comprehensive full-stack application for managing doctor appointments with separate interfaces for users, doctors, and administrators.
 
